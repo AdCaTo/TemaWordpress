@@ -19,6 +19,7 @@
 <header>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="padding-top:40px";>
       <div class="container col-md-3">
+      <img lass="img-fluid mb-1 d-block mx-auto" src="<?php bloginfo('template_url');?>/imgs/logo.jpg" alt="">
          <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
       </div>
       <div class="nav-menu col-md-9">

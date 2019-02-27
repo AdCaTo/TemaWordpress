@@ -5,7 +5,7 @@
       <article class="article-loop">
         <header>
           <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-          By: <?php the_author(); ?>
+          Autor: <?php the_author(); ?>
         </header>
         <?php the_excerpt(); ?>
       </article>
@@ -18,11 +18,4 @@
 </main>
 <?php get_footer(); ?>
 
-
-
-<!--?php get_header(); ?>
-
-Pàgina principal, contingut per afegir...
-
-< ?php get_footer(); ? -->
 

@@ -1,6 +1,6 @@
 /*
 Theme Name: TemaAd
-Theme URI: 
+Theme URI: https://github.com/AdCaTo/TemaWordpress
 Author: Adrian
 Description: Wordpress ejercicio 3
 Version: 1.0
@@ -11,9 +11,9 @@ Text Domain: TemaAd
 
 /* de custom.css */
 
-footer {
+footer{
     position: fixed;
-    height: 100px;
+    height: 10px;
     bottom: 0;
     width: 100%;
 }
@@ -25,16 +25,19 @@ footer {
 #userInfo{
     color: #5165;
 }
-
-
-
-
-.main-div {
-  background: #6b60cc none repeat scroll 0 0;
-  border-radius: 2px;
-  margin: 10px auto 30px;
-  max-width: 38%;
-  padding: 50px 70px 70px 71px;
+body{
+    background-color: aqua
+}
+div{
+    background-color: rgba(255, 255, 255, 0.514);
+}
+h2{
+    background-color: #e69926;
+}
+.outer { 
+  position: relative;
+  width: 25%;
+  padding-bottom: 25%;
 }
 
 .login-form .form-group {
@@ -42,13 +45,10 @@ footer {
 }
 .login-form{ text-align:center;}
 .forgot a {
-  color: #777777;
+  color: #e69926;
   font-size: 14px;
   text-decoration: underline;
 }
-
-/*la resta d'estils, els importarem de Bootstrap */
-
 
 /* SIDEbAR*/
 
@@ -56,14 +56,15 @@ footer {
   background-color: #0b0c0c;
   float: left;
   height:100%;
+  overflow: hidden;
 }
 
 /* MENU */
 
-/*div.nav-menu{
-  background:#ff0000;
+div.nav-menu{
+  background:#e69926;
   float:right;
-}*/
+}
 
 div.nav-menu ul {
   list-style: none;
@@ -89,7 +90,7 @@ div.nav-menu > ul > li > a{
   padding: 10px 10px;
 }
 div.nav-menu > ul > li:hover > a{
-  background: #333;
+  background: #e69926;
 }
 
 /* Sub/Children Menu */
@@ -99,7 +100,7 @@ div.nav-menu .children {
   left: 0;
   top: 100%;
   z-index: 1;
-  background: #333;
+  background: rgb(219, 79, 79);
   min-width: 200px;
   display: none;
 }
@@ -113,7 +114,7 @@ div.nav-menu .children a {
 }
 div.nav-menu .sub-menu li:hover a,
 div.nav-menu .children li:hover a {
-  background: #444;
+  background: #911;
 }
 
 /* Grandchildren Menu */
@@ -122,5 +123,5 @@ div.nav-menu .children .children {
   position: absolute;
   left: 100%;
   top: 0;
-  background: #444;
+  background: #911;
 }
